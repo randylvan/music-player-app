@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import Tweets from '../components/Tweets';
 
 class App extends React.Component {
   componentDidMount() {
@@ -24,7 +25,7 @@ class App extends React.Component {
       <div>
         <nav>
           <div className="nav-wrapper">
-            <a href="#!" className="brand-logo">Logo</a>
+            <a href="#!" className="brand-logo">Anything Logo</a>
             <a href="#" data-activates="mobile" className="button-collapse"><i className="material-icons">menu</i></a>
             <ul className="right hide-on-med-and-down">
               { this.links() }
@@ -35,6 +36,7 @@ class App extends React.Component {
           </div>
         </nav>
         {this.props.children}
+        <Tweets />
       </div>
     );
   }
