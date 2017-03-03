@@ -17,6 +17,7 @@
     "cookie-parser": "~1.4.3",
     "css-loader": "^0.26.1",
     "debug": "~2.6.0",
+    "dotenv": "^4.0.0",
     "express": "~4.14.1",
     "extract-text-webpack-plugin": "^2.0.0-beta",
     "file-loader": "^0.10.0",
