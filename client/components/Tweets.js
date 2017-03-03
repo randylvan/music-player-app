@@ -25,7 +25,7 @@ class Tweets extends React.Component {
       <div>
         <h3 className="text-center">Tweeting Now</h3>
         <form ref="twitterForm" onSubmit={this.getTweets}>
-          <input ref="handle" placeholder="Twitter" />
+          <input ref="handle" placeholder="handle" />
         </form>
         <ul className="collection">
           {this.tweets()}
