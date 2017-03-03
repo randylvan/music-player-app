@@ -11,3 +11,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('app')
 );
+
+// a note to show I contributed something! 
